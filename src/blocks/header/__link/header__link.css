@@ -1,0 +1,56 @@
+@import url('./_theme/header_theme_white.css');
+@import url('./_theme/header_theme_black.css');
+
+.header__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #B6BCBF;
+}
+
+.header__link:first-child {
+  margin-right: 34px;
+}
+
+.header__link_active-white {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 26px;
+}
+
+.header__link_active-black {
+  color: #000;
+  border-bottom: 3px solid #000;
+  padding-bottom: 26px;
+}
+
+@media (max-width: 990px) {
+  .header__link_active-white {
+    padding-bottom: 18px;
+  }
+
+  .header__link_active-black {
+    padding-bottom: 18px;
+  }
+}
+
+@media (max-width: 460px) {
+  .header__link {
+    font-size: 16px;
+  }
+
+  .header__link_active-white {
+    padding-bottom: 16px;
+  }
+
+  .header__link:first-child {
+    margin-right: 11px;
+  }
+
+  .header__link_active-black {
+    padding-bottom: 16px;
+  }
+}

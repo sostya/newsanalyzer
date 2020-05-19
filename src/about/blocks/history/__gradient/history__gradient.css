@@ -1,0 +1,29 @@
+.history__gradient-left {
+  position: absolute;
+  top: 190px;
+  left: 0%;
+  width: 88px;
+  height: 288px;
+  z-index: 0;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #F5F6F7 100%);
+}
+
+.history__gradient-right {
+  position: absolute;
+  top: 190px;
+  right: 0%;
+  width: 88px;
+  height: 288px;
+  z-index: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #F5F6F7 100%);
+}
+
+@media (max-width: 990px) {
+  .history__gradient-left {
+    display: none;
+  }
+
+  .history__gradient-right {
+    display: none;
+  }
+}

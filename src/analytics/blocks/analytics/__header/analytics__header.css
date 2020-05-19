@@ -1,0 +1,12 @@
+.analytics__header {
+    display: grid;
+    grid-template-columns: 104px minmax(auto, 1128px);
+    grid-template-rows: auto;
+    border-bottom: 1px solid #1A1B22;;
+}
+
+@media (max-width: 460px) {
+    .analytics__header {
+        grid-template-columns: 80px minmax(auto, 1128px);
+    }
+}

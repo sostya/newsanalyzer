@@ -1,0 +1,15 @@
+.history__email {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 157%;
+  color: #1A1B22;
+  margin-top: 2px;
+}
+
+@media (max-width: 460px) {
+  .history__email {
+    margin-top: 0;
+  }
+}

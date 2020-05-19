@@ -1,0 +1,15 @@
+.history__date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 157%;
+  color: #B6BCBF;
+  margin: 24px 0 16px 24px;
+}
+
+@media (max-width: 460px) {
+  .history__date {
+    margin: 16px;
+  }
+}
