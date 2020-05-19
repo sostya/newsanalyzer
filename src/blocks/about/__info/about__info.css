@@ -1,0 +1,20 @@
+.about__info {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  margin-top: 131px;
+}
+
+@media (max-width: 990px) {
+  .about__info {
+    margin: 40px 40px 0 0;
+  }
+}
+
+@media (max-width: 690px) {
+  .about__info {
+    margin: 27px 16px 0;
+    align-self: center;
+  }
+}

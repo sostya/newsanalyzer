@@ -1,0 +1,27 @@
+.about__photo {
+  width: 464px;
+  height: 464px;
+  margin: 80px 56px 80px 104px;
+  border-radius: 100%;
+}
+
+@media (max-width: 1280px) {
+  .about__photo {
+    width: 368px;
+    height: 368px;
+  }
+}
+
+@media (max-width: 990px) {
+  .about__photo {
+    width: 272px;
+    height: 272px;
+    margin: 61px 32px 61px 40px;
+  }
+}
+
+@media (max-width: 690px) {
+  .about__photo {
+    margin: 32px 24px 0;
+  }
+}

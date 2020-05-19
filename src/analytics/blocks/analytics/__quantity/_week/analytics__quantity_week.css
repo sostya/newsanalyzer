@@ -1,0 +1,27 @@
+.analytics__quantity_week-mon {
+    width: 15%;
+}
+
+.analytics__quantity_week-tue {
+    width: 18%;
+}
+
+.analytics__quantity_week-wed {
+    width: 11%;
+}
+
+.analytics__quantity_week-thu {
+    width: 39%;
+}
+
+.analytics__quantity_week-fri {
+    width: 45%;
+}
+
+.analytics__quantity_week-sat {
+    width: 73%;
+}
+
+.analytics__quantity_week-sun {
+    width: 34%;
+}

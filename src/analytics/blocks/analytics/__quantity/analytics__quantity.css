@@ -1,0 +1,7 @@
+@import url('./_week/analytics__quantity_week.css');
+
+.analytics__quantity {
+    background-color: #2F71E5;
+    display: flex;
+    align-items: center;
+}

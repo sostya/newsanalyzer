@@ -1,0 +1,15 @@
+.history__name {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 115%;
+  color: #1A1B22;
+}
+
+@media (max-width: 460px) {
+  .history__name {
+    font-size: 20px;
+    line-height: 150%;
+  }
+}

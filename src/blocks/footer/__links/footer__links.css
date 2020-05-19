@@ -1,0 +1,23 @@
+.footer__links {
+  margin: 33px auto 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 990px) {
+  .footer__links {
+    margin: 21px auto 21px;
+  }
+}
+
+@media (max-width: 695px) {
+  .footer__links {
+    height: 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px 0 0 16px;
+    padding-bottom: 40px;
+    order: -1;
+  }
+}

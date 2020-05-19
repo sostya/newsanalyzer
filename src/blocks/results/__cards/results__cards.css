@@ -1,0 +1,27 @@
+.results__cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 400px));
+  grid-auto-rows: minmax(420px, auto);
+  grid-gap: 16px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .results__cards {
+    margin: 0 40px;
+  }
+}
+
+@media (max-width: 990px) {
+  .results__cards {
+    grid-gap: 8px;
+  }
+}
+
+@media (max-width: 680px) {
+  .results__cards {
+    margin: 0 16px;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(446px, auto);
+  }
+}

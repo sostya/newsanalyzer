@@ -1,0 +1,20 @@
+@import url('../fonts/roboto.css');
+@import url('../vendor/normalize.css');
+@import url('./blocks/analytics/analytics.css');
+@import url('./blocks/request/request.css');
+@import url('./blocks/table/table.css');
+
+.main {
+  max-width: 1440px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

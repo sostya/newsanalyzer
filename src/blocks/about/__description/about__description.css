@@ -1,0 +1,24 @@
+.about__description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 133%;
+  color: #1A1B22;
+  padding-bottom: 30px;
+  max-width: 600px;
+}
+
+@media (max-width: 990px) {
+  .about__description {
+    max-width: 424px;
+    width: 100%;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 690px) {
+  .about__description {
+    padding-bottom: 32px;
+  }
+}

@@ -1,0 +1,26 @@
+.footer__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: #1A1B22;
+  text-decoration: none;
+}
+
+.footer__link:nth-child(2) {
+  margin: 0 40px;
+}
+
+@media (max-width: 990px) {
+  .footer__link:nth-child(2) {
+    margin: 0 25px;
+  }
+}
+
+@media (max-width: 695px) {
+  .footer__link:nth-child(2) {
+    margin: 0 0;
+  }
+}

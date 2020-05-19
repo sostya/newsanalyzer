@@ -1,0 +1,46 @@
+@import url('./_active/search__button_active.css');
+
+.search__button {
+  position: absolute;
+  top: 0%;
+  right: -1%;
+  width: 168px;
+  height: 64px;
+  background-color: #2F71E5;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+
+.search__button:hover {
+  background-color: #347EFF;
+  cursor: pointer;
+}
+
+.search__button:active {
+  background-color: #2A65CC;
+}
+
+@media (max-width: 990px) {
+  .search__button {
+    width: 160px;
+    height: 56px;
+  }
+}
+
+@media (max-width: 460px) {
+  .search__button {
+    width: 288px;
+    height: 56px;
+    right: 0%;
+    top: 100%;
+    margin-top: 16px;
+  }
+}

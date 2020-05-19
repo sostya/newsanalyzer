@@ -1,0 +1,23 @@
+@import url('./__caption/header__caption.css');
+@import url('./__link/header__link.css');
+@import url('./__links/header__links.css');
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0 26px 0;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+@media (max-width: 990px) {
+  .header {
+    padding: 22px 0 18px;
+  }
+}
+
+@media (max-width: 460px) {
+  .header {
+    padding: 16px 0;
+  }
+}
