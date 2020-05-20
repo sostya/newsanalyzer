@@ -1,0 +1,15 @@
+.header__links {
+  margin-right: 101px;
+}
+
+@media (max-width: 990px) {
+  .header__links {
+    margin-right: 42px;
+  }
+}
+
+@media (max-width: 460px) {
+  .header__links {
+    margin-right: 14px;
+  }
+}

@@ -1,0 +1,24 @@
+.footer__copyrigh {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 137%;
+  color: #B6BCBF;
+  margin: 33px 0 25px 104px;
+}
+
+@media (max-width: 990px) {
+  .footer__copyrigh {
+    margin: 24px 0 18px 40px;
+  }
+}
+
+@media (max-width: 695px) {
+  .footer__copyrigh {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin: 0 0 22px 16px;
+  }
+}

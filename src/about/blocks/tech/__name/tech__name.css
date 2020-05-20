@@ -1,0 +1,17 @@
+.tech__name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #1A1B22;
+  padding-bottom: 23px;
+}
+
+@media (max-width: 990px) {
+  .tech__name {
+    padding-top: 15px;
+  }
+}

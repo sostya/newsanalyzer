@@ -1,0 +1,17 @@
+.customers__title {
+  max-width: 712px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 115%;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 990px) {
+  .customers__title {
+    font-size: 30px;
+    line-height: 113%;
+    padding-bottom: 16px;
+  }
+}

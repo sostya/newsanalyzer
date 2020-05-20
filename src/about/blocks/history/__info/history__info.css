@@ -1,0 +1,10 @@
+.history__info {
+  display: flex;
+  margin-left: 24px;
+}
+
+@media (max-width: 460px) {
+  .history__info {
+    margin-left: 16px;
+  }
+}

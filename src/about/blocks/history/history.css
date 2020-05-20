@@ -1,0 +1,36 @@
+@import url('./__comments/history__comments.css');
+@import url('./__header/history__header.css');
+@import url('./__link/history__link.css');
+@import url('./__date/history__date.css');
+@import url('./__email/history__email.css');
+@import url('./__info/history__info.css');
+@import url('./__name/history__name.css');
+@import url('./__person/history__person.css');
+@import url('./__title/history__title.css');
+@import url('./__photo/history__photo.css');
+@import url('./__gradient/history__gradient.css');
+@import url('./../carousel/carousel.css');
+@import url('./__link-arrow/history__link-arrow.css');
+@import url('./__markdown/history__markdown.css');
+
+.history {
+  background-color: #F5F6F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  padding-bottom: 136px;
+  overflow: hidden;
+}
+
+@media (max-width: 990px) {
+  .history {
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 460px) {
+  .history {
+    padding-bottom: 116px;
+  }
+}

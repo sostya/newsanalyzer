@@ -1,0 +1,21 @@
+@import url('./_down/analytics__scale_down.css');
+@import url('./_up/analytics__scale_up.css');
+
+.analytics__scale {
+    display: flex;
+    justify-content: space-between;
+    max-height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #B6BCBF;
+}
+
+@media (max-width: 460px) {
+    .analytics__scale {
+        display: none;
+    }
+}
