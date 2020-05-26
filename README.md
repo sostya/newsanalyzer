@@ -8,7 +8,7 @@ Github-pages : [https://sostya.github.io/newsanalyzer/](https://sostya.github.io
 ## Установка
 
 * Клонируйте репозиторий на локальное хранилище, для этого введите в терминал следующую команду:
-`git clone https://github.com/sostya/mesto.git`
+`git clone https://github.com/sostya/newsanalyzer.git`
 * Используйте команду `npm i` для установки плагинов
 * Используйте команду `npm run dev` для запуска проекта локально
 
