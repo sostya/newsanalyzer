@@ -3,40 +3,24 @@ import '../blocks/header/header.css';
 import '../blocks/footer/footer.css';
 import '../blocks/about/about.css';
 
-function carouselFlkty() {
-  let flkty;
-  if (window.matchMedia("(max-width: 990px").matches) {
-      flkty = new Flickity( '.main-carousel', {
-          cellAlign: 'left',
-          contain: true,
-          wrapAround: true,
-          groupCells: '80%',
-          setGallerySize: false,
-          freeScroll: true,
-          arrowShape: {
-              x0: 30,
-              x1: 55, y1: 25,
-              x2: 60, y2: 20,
-              x3: 40
-          }
-      });
-  } else {
-      flkty = new Flickity( '.main-carousel', {
-          cellAlign: 'center',
-          contain: true,
-          wrapAround: true,
-          groupCells: '80%',
-          setGallerySize: false,
-          freeScroll: true,
-          arrowShape: {
-              x0: 30,
-              x1: 55, y1: 25,
-              x2: 60, y2: 20,
-              x3: 40
-          }
-      });
-  }
-}
+import { GitHubApi } from "./../js/modules/GitHubApi";
+import { CommitCard } from "./../js/components/CommitCards";
+import { CommitCardList } from "./../js/components/CommitCardList";
+import { TimeUtil } from "../js/utils/TimeUtil"
 
-carouselFlkty();
-window.addEventListener('resize', () => carouselFlkty());
+// Контейнер для слайдера
+const container = document.querySelector(".main-carousel");
+
+// Объявление классов
+const date = new TimeUtil();
+const card = new CommitCard(container);
+const cardList = new CommitCardList(card, date);
+const gitHubApi = new GitHubApi();
+
+// Слушатель для адаптивного слайдера
+window.addEventListener('resize', () => card.flickity());
+
+// Отрисовка слайдера
+gitHubApi.getCommits().then((data) => {
+  cardList.renderCommits(data);
+}).catch((error) => console.error(error));

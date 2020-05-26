@@ -1,0 +1,11 @@
+.error-server__description {
+  max-width: 356px;
+  margin-bottom: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: #b6bcbf;
+}

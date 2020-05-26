@@ -1,4 +1,4 @@
-@import url('./vendor/normalize.css');
+/* @import url('./vendor/normalize.css');
 @import url('./fonts/roboto.css');
 @import url('./blocks/header/header.css');
 @import url('./blocks/search/search.css');
@@ -8,6 +8,18 @@
 @import url('./blocks/card/card.css');
 @import url('./blocks/about/about.css');
 @import url('./blocks/footer/footer.css');
+@import url("./blocks/error-server/error-server.css"); */
+@import url("./fonts/roboto.css");
+@import url("./vendor/normalize.css");
+@import url("./blocks/header/header.css");
+@import url("./blocks/search/search.css");
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/about/about.css");
+@import url("./blocks/preloader/preloader.css");
+@import url("./blocks/not-found/not-found.css");
+@import url("./blocks/results/results.css");
+@import url("./blocks/card/card.css");
+@import url("./blocks/error-server/error-server.css");
 
 .main {
   max-width: 1440px;
@@ -22,4 +34,8 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+}
+
+.container__hidden {
+  display: none;
 }

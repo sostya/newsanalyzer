@@ -1,0 +1,14 @@
+.search__error {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 133%;
+  margin-left: 5%;
+  max-width: 204px;
+  color: #fff;
+  background-color: red;
+  padding: 5px 25px;
+  border-radius: 0 0 50px 50px;
+  display: none;
+}
