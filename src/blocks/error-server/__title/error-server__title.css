@@ -1,0 +1,10 @@
+.error-server__title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 115%;
+  text-align: center;
+  color: #1a1b22;
+  margin: 80px 0 16px;
+}

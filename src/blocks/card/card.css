@@ -6,6 +6,7 @@
 @import url('./__title/card__title.css');
 
 .card {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

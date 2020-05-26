@@ -1,9 +1,9 @@
 # NewsAnalyzer
 # Яндекс.Практикум, дипломная работа
 
-# v.0.0.1
+# v.0.0.2
 
-Github-pages : [https://sostya.github.io/newsanalyzer/](https://sostya.github.io/newsanalyzer/)
+Github-pages : [https://github.com/sostya/newsanalyzer](https://github.com/sostya/newsanalyzer)
 
 ## Установка
 
@@ -16,3 +16,5 @@ Github-pages : [https://sostya.github.io/newsanalyzer/](https://sostya.github.io
 
 * Выполнена верстка по макету.
 * Выполнена адаптивная верстка под размеры: `IPad mini 9.7, 768px wide` и `IPhone SE 320px wide`
+* Поиск новостей за последнюю неделю с помощью [News API](https://newsapi.org/).
+* Подсчет статистики искомой новости.
