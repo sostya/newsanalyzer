@@ -3,7 +3,7 @@
 
 # v.0.0.2
 
-Github-pages : [https://github.com/sostya/newsanalyzer](https://github.com/sostya/newsanalyzer)
+Github-pages : [https://sostya.github.io/newsanalyzer/](https://sostya.github.io/newsanalyzer/)
 
 ## Установка
 
